@@ -12,7 +12,7 @@ const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: '', // pon tu contraseña si tiene
-  database: 'dss_financiero'
+  database: 'dss_financiero_db'
 });
 
 db.connect(err => {
